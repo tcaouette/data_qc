@@ -1,0 +1,59 @@
+data_quality_suite/
+│
+├── data_quality_suite/
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── data_source.py
+│   │   ├── data_profile.py
+│   │   ├── quality_check.py
+│   │   └── report.py
+│   │
+│   ├── adapters/
+│   │   ├── __init__.py
+│   │   ├── csv_adapter.py
+│   │   ├── sql_adapter.py
+│   │   └── api_adapter.py
+│   │
+│   ├── profilers/
+│   │   ├── __init__.py
+│   │   ├── statistical_profiler.py
+│   │   ├── data_type_profiler.py
+│   │   └── distribution_profiler.py
+│   │
+│   ├── quality_checks/
+│   │   ├── __init__.py
+│   │   ├── completeness_check.py
+│   │   ├── consistency_check.py
+│   │   └── accuracy_check.py
+│   │
+│   ├── reporters/
+│   │   ├── __init__.py
+│   │   ├── text_reporter.py
+│   │   ├── json_reporter.py
+│   │   └── html_reporter.py
+│   │
+│   ├── __init__.py
+│   └── engine.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_core.py
+│   ├── test_adapters.py
+│   ├── test_profilers.py
+│   ├── test_quality_checks.py
+│   ├── test_reporters.py
+│   └── test_engine.py
+│
+├── examples/
+│   ├── csv_example.py
+│   ├── sql_example.py
+│   └── api_example.py
+│
+├── docs/
+│   ├── README.md
+│   ├── CONTRIBUTING.md
+│   └── API.md
+│
+├── pyproject.toml
+├── poetry.lock
+└── README.md
